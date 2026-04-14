@@ -35,11 +35,11 @@ nvidia-smi
 
 输入以上命令检查驱动版本和GPU状态，应该输出如下示例：
 
-<img src="assets\nvidia-smi.png"/>
+<img src="\assets\nvidia-smi.png"/>
 
 请注意，驱动的版本一定要跟显卡匹配，建议通过系统的“软件和更新”来安装，当然，如果有其他更好的安装方法也可以使用，保证驱动版本和显卡匹配即可。
 
-<img src="assets\update.png"/>
+<img src="\assets\update.png"/>
 
 ### 1.1.2 安装CUDA Toolkit
 
@@ -49,11 +49,11 @@ CUDA Toolkit安装包获取地址：https://developer.nvidia.com/cuda-toolkit-ar
 
 来源：https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
 
-<img src="assets\cudatoolkit.png"/>
+<img src="\assets\cudatoolkit.png"/>
 
 拿CUDA Toolkit 13.0举例，大家根据自己不同的版本去进行安装命令调试。
 
-<img src="assets\toolkit13.0.png"/>
+<img src="\assets\toolkit13.0.png"/>
 
 由于我们已经安装了显卡驱动，所以直接采用以下命令安装即可。
 
