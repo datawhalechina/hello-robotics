@@ -69,7 +69,7 @@ sudo apt update
 sudo apt install cuda-toolkit-13-0
 ```
 
-下载安装完成后，运行以下命令查看CUDA版本
+下载安装完成后，运行以下命令查看CUDA版本。
 
 ```python
 nvcc -V
