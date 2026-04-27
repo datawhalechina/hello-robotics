@@ -15,7 +15,7 @@ cd isaac-sim
 
 我们能看到如下的页面。
 
-<img src="assets\page.png"/>
+<img src="\assets\page.png"/>
 
 ### 设置Isaacsim属性
 
