@@ -1,0 +1,51 @@
+# G2 Robot ROS2 Demo Configuration
+
+sim:
+  headless: false
+  physics_step: 120          # Hz
+  rendering_step: 60         # Hz
+  render_mode: "RaytracedLighting"
+
+robot:
+  robot_cfg: "G2_omnipicker.json"
+  robot_usd: "robot/G2_omnipicker/robot.usda"       # floating base for wheel velocity control
+  base_prim_path: "/genie"
+  init_position: [-1.5, 0.0, -0.01]
+  init_rotation: [1.0, 0.0, 0.0, 0.0]   # wxyz quaternion
+
+scene:
+  scene_usd: "background/room/room_1/background.usda"
+  # Object position on the workspace table (from table_task_g2.json workspace_00)
+  object_position: [-4.03, -0.032, 0.81]
+
+navigation:
+  target_position: [-3.55, -0.032, -0.01]   # ~0.48m from object, within arm reach
+  target_yaw: 3.14159                         # Face -X direction (toward the object)
+  linear_speed: 0.3                           # m/s
+  angular_speed: 0.5                          # rad/s
+  position_tolerance: 0.02                    # meters
+  yaw_tolerance: 0.05                         # radians
+
+manipulation:
+  arm: "right"
+  pre_grasp_offset: [0.0, 0.0, 0.12]         # Offset above object for approach
+  grasp_offset: [0.0, 0.0, 0.015]            # Final grasp position offset
+  lift_height: 0.15                           # How high to lift after grasping
+  grasp_orientation: [0.0, 1.0, 0.0, 0.0]    # wxyz quaternion, gripper pointing down
+
+depth_camera:
+  camera_prim: "/genie/head_link3/head_front_Camera"
+  camera_id: "head_front_camera"
+  resolution: [640, 400]
+  max_depth: 5.0                              # meters
+  output_dir: "/tmp/ros2_demo_depth/"
+
+chassis:
+  max_linear_speed: 1.0                       # m/s
+  max_angular_speed: 2.0                      # rad/s
+  max_wheel_speed: 20.0                       # rad/s
+  cmd_timeout: 0.5                            # seconds - zero velocity if no /cmd_vel received
+
+demo:
+  auto_run: true                              # Auto-run full sequence on startup
+  warmup_steps: 240                           # Steps to wait for sim warm-up (2s at 120Hz)

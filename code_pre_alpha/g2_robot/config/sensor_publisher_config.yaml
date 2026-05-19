@@ -1,0 +1,60 @@
+# Standalone G2 sensor publisher configuration.
+# Run:
+#   cd /home/robot/genie_sim_test/g2_robotics
+#   python ros2_robot_demo/sensor_publisher.py
+#
+# Then visualize in RViz:
+#   rviz2 -d ros2_robot_demo/config/g2_rviz.rviz
+
+sim:
+  headless: false
+  physics_step: 120          # Hz
+  rendering_step: 60         # Hz
+  render_mode: "RaytracedLighting"
+
+robot:
+  robot_usd: "robot/G2_omnipicker/robot_fix.usda"
+  base_prim_path: "/genie"
+  init_position: [0.0, 0.0, -0.01]
+  init_rotation: [1.0, 0.0, 0.0, 0.0]   # wxyz quaternion
+
+scene:
+  scene_usd: "background/room/room_1/background.usda"
+
+cameras:
+  enabled: true
+  head:
+    prim: "/genie/head_link3/head_front_Camera"
+    resolution: [640, 400]
+    hz: 30
+  left:
+    prim: "/genie/gripper_l_base_link/Left_Camera"
+    resolution: [1280, 1056]
+    hz: 30
+  right:
+    prim: "/genie/gripper_r_base_link/Right_Camera"
+    resolution: [1280, 1056]
+    hz: 30
+
+lidar:
+  enabled: true
+  # Isaac Sim built-in RTX lidar JSON config name.
+  # Alternatives:
+  #   OS1_REV7_32ch10hz1024res   - Ouster OS1-32
+  #   OS1_REV7_64ch10hz1024res   - Ouster OS1-64 (default)
+  #   OS1_REV7_128ch10hz1024res  - Ouster OS1-128
+  #   OS0_REV7_128ch10hz1024res  - Ouster OS0-128 (wide FOV)
+  #   OS2_REV7_128ch10hz1024res  - Ouster OS2-128 (long range)
+  #   Velodyne_VLS128            - Velodyne Alpha Prime
+  model: "OS1_REV7_64ch10hz1024res"
+  parent: "/genie/base_link"
+  child_path: "/ouster_lidar"
+  translation: [0.0, 0.0, 1.2]          # on top of the base
+  orientation: [1.0, 0.0, 0.0, 0.0]     # wxyz quaternion
+  frequency: 10                          # Hz — used to compute the ROS publisher step gate
+  publish_pointcloud: true
+  # LaserScan only works with 2D lidars (single-ring, elevation=0).
+  # 3D lidars like OS1-64 must use publish_scan: false.
+  publish_scan: false
+  pointcloud_topic: "/ouster/points"
+  scan_topic: "/ouster/scan"
