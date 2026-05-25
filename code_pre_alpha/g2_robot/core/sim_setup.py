@@ -108,6 +108,15 @@ class SimSetup:
         print(f"[SimSetup] Created temp Lula YAML: {tmp.name}")
         return tmp.name
 
+    def _first_existing_path(self, candidates, label):
+        """Return the first existing path from candidates, or raise a clear error."""
+        for path in candidates:
+            if path and os.path.exists(path):
+                return path
+        raise FileNotFoundError(
+            f"{label} not found. Checked:\n  " + "\n  ".join(str(p) for p in candidates)
+        )
+
     def _init_ik_solvers(self):
         """Initialize IK solvers for left and right arms using 7-DOF configs."""
         from isaacsim.robot_motion.motion_generation import (
@@ -125,9 +134,13 @@ class SimSetup:
             repo_root,
             "source/data_collection/config/robot_cfg/G2/G2_omnipicker_fixed_left.yaml",
         )
-        urdf_path = os.path.join(
-            repo_root,
-            "source/robot_cfg/G2_omnipicker/G2_omnipicker.urdf",
+        urdf_path = self._first_existing_path(
+            [
+                os.path.join(repo_root, "source/geniesim/app/robot_cfg/G2_omnipicker/G2_omnipicker.urdf"),
+                os.path.join(repo_root, "source/data_collection/config/robot_cfg/G2/G2_omnipicker_fixed_dual.urdf"),
+                os.path.join(repo_root, "source/robot_cfg/G2_omnipicker/G2_omnipicker.urdf"),
+            ],
+            "G2 URDF",
         )
 
         right_desc = self._create_temp_lula_yaml(right_desc_orig)
