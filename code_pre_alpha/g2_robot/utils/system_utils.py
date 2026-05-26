@@ -16,6 +16,7 @@ logger = Logger()
 def check_and_fix_env():
     """Check and fix SIM_REPO_ROOT and SIM_ASSETS environment variables."""
     env_root_path = os.getenv("SIM_REPO_ROOT")
+    env_assets_path = os.getenv("SIM_ASSETS")
     current_dir = Path(__file__).resolve().parent.parent.parent
     default_assets_path = current_dir / "g2_robot" / "assets"
 
@@ -31,12 +32,18 @@ def check_and_fix_env():
     if not os.path.exists(env_root_path):
         os.makedirs(env_root_path, exist_ok=True)
 
-    os.environ["SIM_ASSETS"] = default_assets_path.as_posix()
-    logger.info(f"using repo assets path: {default_assets_path}")
+    if not env_assets_path:
+        os.environ["SIM_ASSETS"] = default_assets_path.as_posix()
+        logger.warning(f"Warning: env [SIM_ASSETS] empty, will use default: {default_assets_path}")
+    else:
+        logger.info(f"using env SIM_ASSETS={env_assets_path}")
 
 
 def assets_path():
     """Return the g2_robot/assets directory."""
+    env_assets_path = os.getenv("SIM_ASSETS")
+    if env_assets_path:
+        return env_assets_path
     workspace_root = Path(__file__).resolve().parent.parent.parent
     return (workspace_root / "g2_robot" / "assets").as_posix()
 
