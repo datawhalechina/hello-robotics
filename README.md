@@ -10,6 +10,15 @@
 
 <table align="center">
   <tr>
+    <td width="100%" valign="top" align="center">
+      <img src="assets/love_you.gif" width="100%">
+      <br>
+      <strong>底盘机械臂基础控制</strong>
+      <br>
+      <sub>给大家比个心，希望大家能够喜欢我们的教程</sub>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top" align="center">
       <img src="assets/mapping1.gif" width="100%">
       <br>
