@@ -10,7 +10,7 @@
 
 <table align="center">
   <tr>
-    <td width="100%" valign="top" align="center">
+    <td colspan="2" valign="top" align="center">
       <img src="assets/love_you.gif" width="100%">
       <br>
       <strong>底盘机械臂基础控制</strong>
