@@ -11,7 +11,7 @@
 <table align="center">
   <tr>
     <td colspan="2" valign="top" align="center">
-      <img src="assets/love_you.gif" width="100%">
+      <img src="assets/love_you.gif" width="70%">
       <br>
       <strong>底盘机械臂基础控制</strong>
       <br>
