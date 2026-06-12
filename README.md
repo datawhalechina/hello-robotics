@@ -29,7 +29,7 @@
     <td width="50%" valign="top" align="center">
       <img src="assets/mapping2.gif" width="100%">
       <br>
-      <strong>自编双雷达3d建图算法</strong>
+      <strong>纯手搓双雷达3d建图算法</strong>
       <br>
       <sub>教程编写了简单易懂的3d建图算法帮助大家入门3d建图</sub>
     </td>
