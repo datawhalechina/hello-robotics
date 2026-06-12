@@ -29,9 +29,25 @@
     <td width="50%" valign="top" align="center">
       <img src="assets/mapping2.gif" width="100%">
       <br>
+      <strong>视觉目标检测</strong>
+      <br>
+      <sub>g2采用yolo26对环境中的物体进行目标检测</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/mapping2.gif" width="100%">
+      <br>
       <strong>纯手搓双雷达3d建图算法</strong>
       <br>
-      <sub>教程编写了简单易懂的3d建图算法帮助大家入门3d建图</sub>
+      <sub>教程编写简单易懂的3d建图算法帮助大家入门3d建图</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/2d_mapping.gif" width="100%">
+      <br>
+      <strong>纯手搓双雷达2d建图算法</strong>
+      <br>
+      <sub>教程采用3d建图的双3d激光雷达点云编写2d建图算法</sub>
     </td>
   </tr>
 
