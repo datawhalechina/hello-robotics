@@ -15,7 +15,7 @@
       <br>
       <strong>底盘机械臂基础控制</strong>
       <br>
-      <sub>给大家比个心，希望大家能够喜欢我们的教程</sub>
+      <sub><strong>给大家比个心，希望大家能够喜欢我们的教程</strong></sub>
     </td>
   </tr>
   <tr>
