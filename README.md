@@ -8,6 +8,26 @@
 
 ## 🔍 效果展示
 
+<table align="center">
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/mapping1.gif" width="100%">
+      <br>
+      <strong>g2双雷达模块搭建</strong>
+      <br>
+      <sub>原有g2没有激光雷达发布，因此在g2上加载了两个激光雷达</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/mapping2.gif" width="100%">
+      <br>
+      <strong>自编双雷达3d建图算法</strong>
+      <br>
+      <sub>教程编写了简单易懂的3d建图算法帮助大家入门3d建图</sub>
+    </td>
+  </tr>
+
+</table>
+
 ## 📖 内容导航
 
 | 章节                                                                                        | 关键内容                                      | 状态 |
