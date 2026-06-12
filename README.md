@@ -27,7 +27,7 @@
       <sub>原有g2没有激光雷达发布，因此在g2上加载了两个激光雷达</sub>
     </td>
     <td width="50%" valign="top" align="center">
-      <img src="assets/mapping2.gif" width="100%">
+      <img src="assets/yolo26.gif" width="100%">
       <br>
       <strong>视觉目标检测</strong>
       <br>
