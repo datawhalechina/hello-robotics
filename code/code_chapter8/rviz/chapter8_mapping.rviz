@@ -1,0 +1,151 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Background Color: 32; 32; 32
+    Fixed Frame: map
+    Frame Rate: 30
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Alpha: 0.45
+      Cell Size: 1
+      Plane: XY
+      Plane Cell Count: 30
+      Color: 120; 120; 120
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+      Frame Timeout: 15
+      Marker Scale: 0.25
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+    - Class: rviz_default_plugins/PointCloud2
+      Name: 3D XYZI Map
+      Enabled: true
+      Topic:
+        Value: /map_cloud
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 1
+      Style: Points
+      Size (Pixels): 2
+      Size (m): 0.025
+      Color Transformer: Intensity
+      Channel Name: intensity
+      Autocompute Intensity Bounds: true
+      Decay Time: 0
+      Position Transformer: XYZ
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Left RTX LiDAR Scan
+      Enabled: true
+      Topic:
+        Value: /lidar/left/points
+        Reliability Policy: Best Effort
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 5
+      Style: Flat Squares
+      Size (Pixels): 2
+      Size (m): 0.018
+      Color Transformer: FlatColor
+      Color: 70; 210; 255
+      Decay Time: 0.15
+      Position Transformer: XYZ
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Right RTX LiDAR Scan
+      Enabled: true
+      Topic:
+        Value: /lidar/right/points
+        Reliability Policy: Best Effort
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 5
+      Style: Flat Squares
+      Size (Pixels): 2
+      Size (m): 0.018
+      Color Transformer: FlatColor
+      Color: 255; 170; 60
+      Decay Time: 0.15
+      Position Transformer: XYZ
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Fused Dual LiDAR
+      Enabled: true
+      Topic:
+        Value: /lidar/fused
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 2
+      Style: Flat Squares
+      Size (Pixels): 2
+      Size (m): 0.018
+      Color Transformer: Intensity
+      Channel Name: intensity
+      Autocompute Intensity Bounds: true
+      Decay Time: 0.15
+      Position Transformer: XYZ
+    - Class: rviz_default_plugins/Map
+      Name: 2D Occupancy Map
+      Enabled: true
+      Topic:
+        Value: /map
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 1
+      Alpha: 0.65
+      Color Scheme: map
+      Draw Behind: true
+    - Class: rviz_default_plugins/Path
+      Name: Drifted Odometry
+      Enabled: true
+      Topic:
+        Value: /trajectory/odom
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 1
+      Color: 255; 85; 70
+      Alpha: 1
+      Line Style: Lines
+      Line Width: 0.035
+      Buffer Length: 1
+    - Class: rviz_default_plugins/Path
+      Name: Optimized Trajectory
+      Enabled: true
+      Topic:
+        Value: /trajectory/optimized
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 1
+      Color: 60; 255; 100
+      Alpha: 1
+      Line Style: Lines
+      Line Width: 0.05
+      Buffer Length: 1
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 9
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0.5
+      Pitch: 0.75
+      Yaw: 0.8
+Window Geometry:
+  Height: 900
+  Width: 1450
