@@ -1,0 +1,8 @@
+joint_limits:
+  idx61_arm_r_joint1: {has_velocity_limits: true, max_velocity: 1.25, has_acceleration_limits: true, max_acceleration: 2.2}
+  idx62_arm_r_joint2: {has_velocity_limits: true, max_velocity: 1.25, has_acceleration_limits: true, max_acceleration: 2.2}
+  idx63_arm_r_joint3: {has_velocity_limits: true, max_velocity: 1.25, has_acceleration_limits: true, max_acceleration: 2.2}
+  idx64_arm_r_joint4: {has_velocity_limits: true, max_velocity: 1.25, has_acceleration_limits: true, max_acceleration: 2.2}
+  idx65_arm_r_joint5: {has_velocity_limits: true, max_velocity: 1.25, has_acceleration_limits: true, max_acceleration: 2.2}
+  idx66_arm_r_joint6: {has_velocity_limits: true, max_velocity: 1.25, has_acceleration_limits: true, max_acceleration: 2.2}
+  idx67_arm_r_joint7: {has_velocity_limits: true, max_velocity: 1.25, has_acceleration_limits: true, max_acceleration: 2.2}

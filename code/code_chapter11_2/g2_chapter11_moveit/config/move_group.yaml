@@ -1,0 +1,12 @@
+planning_scene_monitor_options:
+  name: planning_scene_monitor
+  robot_description: robot_description
+  joint_state_topic: /joint_states
+  attached_collision_object_topic: /move_group/planning_scene_monitor
+  publish_planning_scene_topic: /move_group/publish_planning_scene
+  monitored_planning_scene_topic: /monitored_planning_scene
+planning_pipelines:
+  pipeline_names: [ompl]
+plan_execution:
+  record_trajectory_state_frequency: 10.0
+moveit_manage_controllers: true

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>g2_chapter11_moveit</name>
+  <version>0.1.0</version>
+  <description>Chapter 11 G2 right-arm MoveIt 2 planning and Isaac Sim execution.</description>
+  <maintainer email="student@example.com">G2 Robot Course</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>control_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>rclcpp_action</depend>
+  <depend>sensor_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>moveit_msgs</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>rclcpp</depend>
+  <depend>shape_msgs</depend>
+  <depend>std_msgs</depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>moveit_kinematics</exec_depend>
+  <exec_depend>moveit_planners_ompl</exec_depend>
+  <exec_depend>moveit_ros_move_group</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
