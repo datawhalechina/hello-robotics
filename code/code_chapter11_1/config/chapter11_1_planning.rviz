@@ -1,0 +1,58 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Background Color: 34; 39; 46
+    Fixed Frame: world
+    Frame Rate: 30
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Plane: XY
+      Cell Size: 0.1
+      Color: 120; 120; 120
+      Offset:
+        X: 0
+        Y: 0
+        Z: -0.65
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Chapter11 Planning
+      Enabled: true
+      Topic:
+        Depth: 10
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /chapter11/planning_markers
+      Queue Size: 100
+    - Class: rviz_default_plugins/Marker
+      Name: Head Depth OctoMap
+      Enabled: true
+      Topic:
+        Depth: 10
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /chapter11/octomap_voxels
+      Queue Size: 10
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 2.2
+      Focal Point:
+        X: 0.55
+        Y: -0.28
+        Z: -0.38
+      Pitch: 0.45
+      Yaw: 0.75
+Window Geometry:
+  Width: 1280
+  Height: 800
