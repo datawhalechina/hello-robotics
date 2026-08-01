@@ -1,0 +1,122 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Alpha: 0.5
+      Cell Size: 1
+      Plane: XY
+      Plane Cell Count: 20
+    - Class: rviz_default_plugins/Map
+      Name: Static Map
+      Enabled: true
+      Alpha: 0.75
+      Topic:
+        Value: /map
+        Durability Policy: Transient Local
+        Reliability Policy: Reliable
+        History Policy: Keep Last
+        Depth: 1
+    - Class: rviz_default_plugins/LaserScan
+      Name: Simulated Laser Scan
+      Enabled: true
+      Topic:
+        Value: /scan
+        Reliability Policy: Reliable
+        History Policy: Keep Last
+        Depth: 5
+      Size (m): 0.03
+      Style: Flat Squares
+    - Class: rviz_default_plugins/Path
+      Name: Global Plan
+      Enabled: true
+      Topic:
+        Value: /plan/global
+        Reliability Policy: Reliable
+        History Policy: Keep Last
+        Depth: 5
+      Line Style: Lines
+      Line Width: 0.05
+      Color: 0; 200; 255
+    - Class: rviz_default_plugins/Path
+      Name: Local Plan
+      Enabled: true
+      Topic:
+        Value: /plan/local
+        Reliability Policy: Reliable
+        History Policy: Keep Last
+        Depth: 5
+      Line Style: Lines
+      Line Width: 0.05
+      Color: 255; 180; 0
+    - Class: rviz_default_plugins/Path
+      Name: Executed Path
+      Enabled: true
+      Topic:
+        Value: /plan/executed
+        Reliability Policy: Reliable
+        History Policy: Keep Last
+        Depth: 5
+      Line Style: Lines
+      Line Width: 0.03
+      Color: 255; 0; 255
+    - Class: rviz_default_plugins/Odometry
+      Name: Odometry
+      Enabled: true
+      Topic:
+        Value: /odom
+        Reliability Policy: Reliable
+        History Policy: Keep Last
+        Depth: 10
+      Keep: 50
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Goal Dynamic Obstacles
+      Enabled: true
+      Topic:
+        Value: /navigation/markers
+        Reliability Policy: Reliable
+        History Policy: Keep Last
+        Depth: 10
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+      Frame Timeout: 15
+      Marker Scale: 0.25
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+  Enabled: true
+  Global Options:
+    Background Color: 38; 38; 38
+    Fixed Frame: map
+    Frame Rate: 30
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetGoal
+      Topic: /goal_pose
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Views:
+    Current:
+      Class: rviz_default_plugins/TopDownOrtho
+      Name: Top Down
+      Scale: 35
+      Target Frame: map
+      X: 0
+      Y: 0
+Window Geometry:
+  Height: 900
+  Width: 1500
+  X: 60
+  Y: 40
