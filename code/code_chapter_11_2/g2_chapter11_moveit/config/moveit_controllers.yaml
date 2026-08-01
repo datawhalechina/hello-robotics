@@ -1,0 +1,20 @@
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+moveit_simple_controller_manager:
+  controller_names:
+    - right_arm_controller
+  right_arm_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - idx61_arm_r_joint1
+      - idx62_arm_r_joint2
+      - idx63_arm_r_joint3
+      - idx64_arm_r_joint4
+      - idx65_arm_r_joint5
+      - idx66_arm_r_joint6
+      - idx67_arm_r_joint7
+trajectory_execution:
+  allowed_execution_duration_scaling: 2.5
+  allowed_goal_duration_margin: 4.0
+  allowed_start_tolerance: 0.08
