@@ -50,6 +50,22 @@
       <sub>教程采用3d建图的双3d激光雷达点云编写2d建图算法</sub>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/nav.gif" width="100%">
+      <br>
+      <strong>底盘导航规划算法</strong>
+      <br>
+      <sub>g2全局导航与自主避障</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/pick.gif" width="100%">
+      <br>
+      <strong>机械臂规划算法</strong>
+      <br>
+      <sub>g2机械臂定点抓取与自主避障</sub>
+    </td>
+  </tr>
 
 </table>
 
