@@ -1,5 +1,15 @@
 <h1 align="center"> Hello-Robotics </h1>
 
+<table align="center">
+  <tr>
+    <td colspan="2" valign="top" align="center">
+      <img src="assets/love_you.gif" width="70%">
+      <br>
+      <strong>给大家比个心，希望大家能够喜欢我们的教程</strong>
+    </td>
+  </tr>
+</table>
+
 ## 🎯 项目介绍
 
 > &emsp;&emsp;*Hello-Robotics 是一个面向机器人开发与具身智能的开源实践教程项目。项目以仿真为起点，围绕感知、建图、规划、控制与智能决策，逐步构建适用于不同机器人本体的系统化学习与开发体系。*
@@ -25,15 +35,6 @@
 ## 🔍 效果展示
 
 <table align="center">
-  <tr>
-    <td colspan="2" valign="top" align="center">
-      <img src="assets/love_you.gif" width="70%">
-      <br>
-      <strong>底盘机械臂基础控制</strong>
-      <br>
-      <sub><strong>给大家比个心，希望大家能够喜欢我们的教程</strong></sub>
-    </td>
-  </tr>
   <tr>
     <td width="50%" valign="top" align="center">
       <img src="assets/mapping1.gif" width="100%">
