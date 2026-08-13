@@ -1,0 +1,215 @@
+# ROS 2 Humble / Nav2：G2 四轮独立转向全向底盘参数
+bt_navigator:
+  ros__parameters:
+    use_sim_time: true
+    global_frame: map
+    robot_base_frame: base_link
+    odom_topic: /odom
+    bt_loop_duration: 10
+    default_server_timeout: 20
+
+controller_server:
+  ros__parameters:
+    use_sim_time: true
+    controller_frequency: 20.0
+    min_x_velocity_threshold: 0.01
+    min_y_velocity_threshold: 0.01
+    min_theta_velocity_threshold: 0.01
+    failure_tolerance: 0.3
+    progress_checker_plugin: progress_checker
+    goal_checker_plugins: [goal_checker]
+    controller_plugins: [FollowPath]
+
+    progress_checker:
+      plugin: nav2_controller::SimpleProgressChecker
+      required_movement_radius: 0.12
+      movement_time_allowance: 8.0
+    goal_checker:
+      plugin: nav2_controller::SimpleGoalChecker
+      stateful: true
+      xy_goal_tolerance: 0.12
+      yaw_goal_tolerance: 0.12
+
+    FollowPath:
+      plugin: dwb_core::DWBLocalPlanner
+      debug_trajectory_details: false
+      min_vel_x: -0.55
+      min_vel_y: -0.55
+      max_vel_x: 0.55
+      max_vel_y: 0.55
+      max_vel_theta: 1.0
+      min_speed_xy: 0.0
+      max_speed_xy: 0.55
+      min_speed_theta: 0.0
+      acc_lim_x: 0.8
+      acc_lim_y: 0.8
+      acc_lim_theta: 1.8
+      decel_lim_x: -0.8
+      decel_lim_y: -0.8
+      decel_lim_theta: -1.8
+      vx_samples: 12
+      vy_samples: 12
+      vtheta_samples: 16
+      sim_time: 1.5
+      linear_granularity: 0.05
+      angular_granularity: 0.04
+      transform_tolerance: 0.25
+      xy_goal_tolerance: 0.12
+      trans_stopped_velocity: 0.05
+      short_circuit_trajectory_evaluation: true
+      stateful: true
+      critics: [RotateToGoal, Oscillation, BaseObstacle, GoalAlign, PathAlign, PathDist, GoalDist]
+      BaseObstacle.scale: 0.04
+      PathAlign.scale: 24.0
+      PathAlign.forward_point_distance: 0.25
+      GoalAlign.scale: 18.0
+      GoalAlign.forward_point_distance: 0.25
+      PathDist.scale: 24.0
+      GoalDist.scale: 18.0
+      RotateToGoal.scale: 20.0
+      RotateToGoal.slowing_factor: 5.0
+      RotateToGoal.lookahead_time: -1.0
+
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      use_sim_time: true
+      update_frequency: 10.0
+      publish_frequency: 5.0
+      global_frame: odom
+      robot_base_frame: base_link
+      rolling_window: true
+      width: 6
+      height: 6
+      resolution: 0.05
+      robot_radius: 0.34
+      plugins: [obstacle_layer, inflation_layer]
+      obstacle_layer:
+        plugin: nav2_costmap_2d::ObstacleLayer
+        enabled: true
+        observation_sources: scan
+        scan:
+          topic: /scan
+          data_type: LaserScan
+          clearing: true
+          marking: true
+          obstacle_min_range: 0.38
+          obstacle_max_range: 7.5
+          raytrace_min_range: 0.38
+          raytrace_max_range: 8.0
+          max_obstacle_height: 2.0
+      inflation_layer:
+        plugin: nav2_costmap_2d::InflationLayer
+        inflation_radius: 0.44
+        cost_scaling_factor: 4.0
+      always_send_full_costmap: true
+
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      use_sim_time: true
+      update_frequency: 2.0
+      publish_frequency: 2.0
+      global_frame: map
+      robot_base_frame: base_link
+      resolution: 0.05
+      robot_radius: 0.34
+      track_unknown_space: false
+      plugins: [static_layer, obstacle_layer, inflation_layer]
+      static_layer:
+        plugin: nav2_costmap_2d::StaticLayer
+        map_subscribe_transient_local: true
+      obstacle_layer:
+        plugin: nav2_costmap_2d::ObstacleLayer
+        enabled: true
+        observation_sources: scan
+        scan:
+          topic: /scan
+          data_type: LaserScan
+          clearing: true
+          marking: true
+          obstacle_min_range: 0.38
+          obstacle_max_range: 7.5
+          raytrace_min_range: 0.38
+          raytrace_max_range: 8.0
+          max_obstacle_height: 2.0
+      inflation_layer:
+        plugin: nav2_costmap_2d::InflationLayer
+        inflation_radius: 0.44
+        cost_scaling_factor: 4.0
+      always_send_full_costmap: true
+
+map_server:
+  ros__parameters:
+    use_sim_time: true
+    yaml_filename: ""
+
+planner_server:
+  ros__parameters:
+    use_sim_time: true
+    expected_planner_frequency: 5.0
+    planner_plugins: [GridBased]
+    GridBased:
+      plugin: nav2_navfn_planner/NavfnPlanner
+      tolerance: 0.15
+      use_astar: true
+      allow_unknown: false
+
+smoother_server:
+  ros__parameters:
+    use_sim_time: true
+    smoother_plugins: [simple_smoother]
+    simple_smoother:
+      plugin: nav2_smoother::SimpleSmoother
+      tolerance: 1.0e-10
+      max_its: 1000
+      do_refinement: true
+
+behavior_server:
+  ros__parameters:
+    use_sim_time: true
+    costmap_topic: local_costmap/costmap_raw
+    footprint_topic: local_costmap/published_footprint
+    cycle_frequency: 10.0
+    behavior_plugins: [spin, backup, drive_on_heading, wait]
+    spin:
+      plugin: nav2_behaviors/Spin
+    backup:
+      plugin: nav2_behaviors/BackUp
+    drive_on_heading:
+      plugin: nav2_behaviors/DriveOnHeading
+    wait:
+      plugin: nav2_behaviors/Wait
+    global_frame: odom
+    robot_base_frame: base_link
+    transform_tolerance: 0.2
+    simulate_ahead_time: 2.0
+    max_rotational_vel: 1.0
+    min_rotational_vel: 0.2
+    rotational_acc_lim: 1.8
+
+waypoint_follower:
+  ros__parameters:
+    use_sim_time: true
+    loop_rate: 20
+    stop_on_failure: false
+    waypoint_task_executor_plugin: wait_at_waypoint
+    wait_at_waypoint:
+      plugin: nav2_waypoint_follower::WaitAtWaypoint
+      enabled: true
+      waypoint_pause_duration: 1000
+
+velocity_smoother:
+  ros__parameters:
+    use_sim_time: true
+    smoothing_frequency: 20.0
+    scale_velocities: true
+    feedback: OPEN_LOOP
+    max_velocity: [0.55, 0.55, 1.0]
+    min_velocity: [-0.55, -0.55, -1.0]
+    max_accel: [0.8, 0.8, 1.8]
+    max_decel: [-0.8, -0.8, -1.8]
+    odom_topic: /odom
+    odom_duration: 0.1
+    deadband_velocity: [0.0, 0.0, 0.0]
+    velocity_timeout: 0.5

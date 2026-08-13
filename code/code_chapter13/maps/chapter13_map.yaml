@@ -1,0 +1,7 @@
+image: chapter13_map.pgm
+mode: trinary
+resolution: 0.050000
+origin: [-4.750000, -4.750000, 0.000000]
+negate: 0
+occupied_thresh: 0.650000
+free_thresh: 0.250000
