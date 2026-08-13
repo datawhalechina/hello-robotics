@@ -83,6 +83,22 @@
       <sub>g2机械臂定点抓取与自主避障</sub>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/qwen3vl.gif" width="100%">
+      <br>
+      <strong>vlm算法实践</strong>
+      <br>
+      <sub>g2本地部署qwen3vl进行语义理解和环境感知</sub>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="assets/pi0.5.gif" width="100%">
+      <br>
+      <strong>vla算法实践</strong>
+      <br>
+      <sub>通过数据采集微调pi0.5模型，完成g2的物块抓取</sub>
+    </td>
+  </tr>
 
 </table>
 
