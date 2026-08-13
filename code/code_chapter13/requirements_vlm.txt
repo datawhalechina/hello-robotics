@@ -1,0 +1,6 @@
+# 仅供本地 Qwen3-VL Conda 环境使用；Isaac Sim 环境不要重复安装。
+transformers>=4.57.0
+accelerate>=1.0.0
+safetensors>=0.4.0
+qwen-vl-utils>=0.0.14
+Pillow>=10.0.0
