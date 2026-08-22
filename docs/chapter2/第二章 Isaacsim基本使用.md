@@ -93,7 +93,7 @@ cd isaac-sim
 
 制作机器人的主体：
 
-1）点击 Create > Xform 创建一个新的坐标系，并将其重命名为body，并将它的Translate设置为（0,0,1）。
+1）点击 Create > Xform 创建一个新的坐标系，并将其重命名为body，并将它的Translate设置为（0,0,1）。注意：通过菜单 Create 创建的节点默认会挂在世界坐标系（World）根节点下，如果希望它创建在某个特定坐标系（如 wheel_right）之下，可以先在 Stage 树中选中该坐标系再点击 Create，节点会直接绑定到选中的父层级下，避免创建后再手动拖拽和二次矫正坐标参数。
 
 <img src=".\assets\xform.png"/>
 
@@ -211,7 +211,9 @@ Joint 是连接两个物体的零件，而 Articulation 是一种将整个机器
 
 添加方式在这个示例中很简单，了解即可，后续用的机器人都会给一个完整的usd，想要了解的可以参考[Articulations](https://docs.omniverse.nvidia.com/kit/docs/omni_physics/latest/dev_guide/rigid_bodies_articulations/articulations.html)。
 
-在这个示例中，选择+Add > Physics > Articulation Root 即可。
+在这个示例中，先在 Stage 树中选中机器人的顶层 xform（即 mock_robot_no_joints），再在 Property 属性选项卡中选择+Add > Physics > Articulation Root 即可。注意 Articulation Root 应添加在机器人模型的关节节点层级上，且整个模型只能有一个根节点。
+
+> ⚠️ **注意**：请不要在轮子或地面等其他层级上重复添加 Articulation Root，否则播放时会报错「检测到多个关节根节点」。多余的 Articulation Root 无法在界面上手动删除，只能通过修改 USD 文件移除（参见 issue #4）。
 
 <img src=".\assets\articulation.png"/>
 
@@ -225,7 +227,7 @@ Joint 是连接两个物体的零件，而 Articulation 是一种将整个机器
 
 <img src=".\assets\add.png"/>
 
-2）将Graphs放到mock_robot_no_jointsd xform下，右键选择velocity_controller，点击open graph即可打开action graph，最后点击播放，即可开始运动。
+2）将Graphs放到mock_robot_no_joints xform下，右键选择velocity_controller，点击open graph即可打开action graph，最后点击播放，即可开始运动。
 
 <img src=".\assets\motion_end.png"/>
 
