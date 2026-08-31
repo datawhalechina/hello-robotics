@@ -1,0 +1,2590 @@
+{
+  "complete": true,
+  "no_intervention": true,
+  "completed_single_episodes": 150,
+  "completed_sequential_episodes": 50,
+  "single_color_success": {
+    "red": 0.98,
+    "green": 0.96,
+    "blue": 0.74
+  },
+  "sequential_three_color_success": 0.54,
+  "episodes": [
+    {
+      "mode": "single",
+      "episode": 0,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 58
+    },
+    {
+      "mode": "single",
+      "episode": 1,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 2,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 3,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 4,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 5,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 6,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 7,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 8,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 9,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 10,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 11,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 12,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 13,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 14,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 154
+    },
+    {
+      "mode": "single",
+      "episode": 15,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 16,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 17,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 18,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 19,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 20,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 21,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 22,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 23,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 24,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 25,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 26,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 27,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 28,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 29,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 30,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 31,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 155
+    },
+    {
+      "mode": "single",
+      "episode": 32,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 33,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 34,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 35,
+      "color": "red",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 36,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 37,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 155
+    },
+    {
+      "mode": "single",
+      "episode": 38,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 39,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 40,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 41,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 42,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 43,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 44,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 45,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 255
+    },
+    {
+      "mode": "single",
+      "episode": 46,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 154
+    },
+    {
+      "mode": "single",
+      "episode": 47,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 48,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 154
+    },
+    {
+      "mode": "single",
+      "episode": 49,
+      "color": "red",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 0,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 1,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 2,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 3,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 155
+    },
+    {
+      "mode": "single",
+      "episode": 4,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 5,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 154
+    },
+    {
+      "mode": "single",
+      "episode": 6,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 156
+    },
+    {
+      "mode": "single",
+      "episode": 7,
+      "color": "green",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 8,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 152
+    },
+    {
+      "mode": "single",
+      "episode": 9,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 153
+    },
+    {
+      "mode": "single",
+      "episode": 10,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 11,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 154
+    },
+    {
+      "mode": "single",
+      "episode": 12,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 13,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 14,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 15,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 155
+    },
+    {
+      "mode": "single",
+      "episode": 16,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 17,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 18,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 19,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 153
+    },
+    {
+      "mode": "single",
+      "episode": 20,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 152
+    },
+    {
+      "mode": "single",
+      "episode": 21,
+      "color": "green",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 22,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 23,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 24,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 153
+    },
+    {
+      "mode": "single",
+      "episode": 25,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 26,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 27,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 28,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 156
+    },
+    {
+      "mode": "single",
+      "episode": 29,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 149
+    },
+    {
+      "mode": "single",
+      "episode": 30,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 154
+    },
+    {
+      "mode": "single",
+      "episode": 31,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 32,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 33,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 34,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 35,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 36,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 37,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 153
+    },
+    {
+      "mode": "single",
+      "episode": 38,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 39,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 40,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 156
+    },
+    {
+      "mode": "single",
+      "episode": 41,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 42,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 255
+    },
+    {
+      "mode": "single",
+      "episode": 43,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 155
+    },
+    {
+      "mode": "single",
+      "episode": 44,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 45,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 46,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 47,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 157
+    },
+    {
+      "mode": "single",
+      "episode": 48,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 153
+    },
+    {
+      "mode": "single",
+      "episode": 49,
+      "color": "green",
+      "success": true,
+      "reason": "success",
+      "frames": 154
+    },
+    {
+      "mode": "single",
+      "episode": 0,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 58
+    },
+    {
+      "mode": "single",
+      "episode": 1,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 2,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 3,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 4,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 5,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 6,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 7,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 8,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 58
+    },
+    {
+      "mode": "single",
+      "episode": 9,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 10,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 11,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 12,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 13,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 14,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 15,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 16,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 17,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 18,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 19,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 20,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 21,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 22,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 23,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 24,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 25,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 26,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 27,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 28,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 29,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 56
+    },
+    {
+      "mode": "single",
+      "episode": 30,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 31,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 32,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 157
+    },
+    {
+      "mode": "single",
+      "episode": 33,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 34,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 35,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 36,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 37,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 38,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 39,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 40,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 41,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 42,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 43,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 44,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 45,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 46,
+      "color": "blue",
+      "success": false,
+      "reason": "timeout",
+      "frames": 300
+    },
+    {
+      "mode": "single",
+      "episode": 47,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 48,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "single",
+      "episode": 49,
+      "color": "blue",
+      "success": true,
+      "reason": "success",
+      "frames": 57
+    },
+    {
+      "mode": "sequential",
+      "episode": 0,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": false,
+      "completed": 1,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 1,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 105
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 2,
+      "order": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 3,
+      "order": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "green",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 4,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": false,
+      "completed": 1,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "red",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 5,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 6,
+      "order": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 200
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 7,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 8,
+      "order": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 9,
+      "order": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 58
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 105
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 10,
+      "order": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 105
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 11,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 156
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 105
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 12,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 108
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 111
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 13,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 104
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 104
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 14,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 15,
+      "order": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 105
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 16,
+      "order": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "green",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 17,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 18,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 19,
+      "order": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "success": false,
+      "completed": 2,
+      "details": [
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        },
+        {
+          "color": "red",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 20,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 59
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 21,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 204
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 22,
+      "order": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 23,
+      "order": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "success": false,
+      "completed": 2,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 104
+        },
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 24,
+      "order": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 58
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 110
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 25,
+      "order": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "success": false,
+      "completed": 2,
+      "details": [
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 254
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 26,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": false,
+      "completed": 1,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 27,
+      "order": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 28,
+      "order": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 29,
+      "order": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 109
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 30,
+      "order": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "success": false,
+      "completed": 1,
+      "details": [
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 31,
+      "order": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "success": false,
+      "completed": 1,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 58
+        },
+        {
+          "color": "green",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 32,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "red",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 33,
+      "order": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "success": false,
+      "completed": 2,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "red",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 34,
+      "order": [
+        "green",
+        "red",
+        "blue"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 104
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 35,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 58
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 105
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 36,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": false,
+      "completed": 2,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        },
+        {
+          "color": "green",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 37,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 58
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 38,
+      "order": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 105
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 39,
+      "order": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 40,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 41,
+      "order": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "success": false,
+      "completed": 2,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 207
+        },
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 42,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 207
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 43,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 44,
+      "order": [
+        "blue",
+        "green",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 57
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 45,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 46,
+      "order": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 107
+        },
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 207
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 47,
+      "order": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "blue",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 48,
+      "order": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "success": true,
+      "completed": 3,
+      "details": [
+        {
+          "color": "green",
+          "success": true,
+          "reason": "success",
+          "frames": 56
+        },
+        {
+          "color": "blue",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        },
+        {
+          "color": "red",
+          "success": true,
+          "reason": "success",
+          "frames": 106
+        }
+      ]
+    },
+    {
+      "mode": "sequential",
+      "episode": 49,
+      "order": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "success": false,
+      "completed": 0,
+      "details": [
+        {
+          "color": "green",
+          "success": false,
+          "reason": "timeout",
+          "frames": 300
+        }
+      ]
+    }
+  ]
+}
