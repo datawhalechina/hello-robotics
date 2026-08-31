@@ -220,7 +220,7 @@ $$
 最终 target 为
 
 $$
-y_t=\operatorname{clip}
+y_t=\mathrm{clip}
 \left(
 \frac{g_t}{T_{\max}+C_{\mathrm{fail}}},-1,0
 \right)
