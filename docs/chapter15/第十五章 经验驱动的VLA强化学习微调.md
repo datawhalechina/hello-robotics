@@ -681,18 +681,24 @@ episode 级元数据还包括任务文本、目标颜色、成功标记、停止
 
 进入本章代码目录并建立独立环境：
 
+将openpi项目git到third_party文件夹中，目录为third_party\openpi
+
+openpi地址：https://github.com/Physical-Intelligence/openpi
+
 ```bash
 cd /home/robot/g2_robot/code/code_chapter15
 ./setup_env.sh
 ```
 
-非 Isaac Sim 脚本统一通过本章环境运行：
+**以下两个为运行参考，不用运行**
+
+1、非 Isaac Sim 脚本统一通过本章环境运行：
 
 ```bash
 ./run.sh some_script.py [arguments...]
 ```
 
-采集和评测需要 Isaac Sim 自带 Python：
+2、采集和评测需要 Isaac Sim 自带 Python：
 
 ```bash
 /home/robot/isaac-sim/python.sh some_isaac_script.py [arguments...]
