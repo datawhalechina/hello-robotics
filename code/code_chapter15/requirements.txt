@@ -1,0 +1,7 @@
+# Core policy environment is pinned by third_party/openpi/uv.lock.
+# Install it with ./setup_env.sh; this short list documents chapter-only extras.
+numpy>=1.22.4,<2.0.0
+pytest>=8.3.4
+transformers==4.53.2
+torch==2.7.1
+safetensors>=0.4.5
