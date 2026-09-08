@@ -1,3 +1,10 @@
 node_modules/
 docs/.vitepress/dist
 docs/.vitepress/cache
+sota_algorithm/g2/前沿算法1-acotvla/code/acotvla/
+sota_algorithm/g2/前沿算法1-acotvla/code/data/
+sota_algorithm/g2/前沿算法1-acotvla/code/checkpoints/
+sota_algorithm/g2/前沿算法1-acotvla/code/assets/
+sota_algorithm/g2/前沿算法1-acotvla/code/results/*
+!sota_algorithm/g2/前沿算法1-acotvla/code/results/.gitkeep
+sota_algorithm/g2/前沿算法1-acotvla/code/**/__pycache__/
