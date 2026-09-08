@@ -1,3 +1,10 @@
 node_modules/
 docs/.vitepress/dist
 docs/.vitepress/cache
+code/code_chapter18/acotvla/
+code/code_chapter18/data/
+code/code_chapter18/checkpoints/
+code/code_chapter18/assets/
+code/code_chapter18/results/*
+!code/code_chapter18/results/.gitkeep
+code/code_chapter18/**/__pycache__/
