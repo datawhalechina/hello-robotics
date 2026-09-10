@@ -1,0 +1,1 @@
+此处存放训练得到的权重文件，也可直接使用huggingface中datawhale，hello-robotcis-chapter16中的checkpoints文件夹中的内容

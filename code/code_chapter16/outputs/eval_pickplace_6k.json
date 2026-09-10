@@ -1,0 +1,30 @@
+[
+  {
+    "color": "red",
+    "episode": 0,
+    "success": true,
+    "reason": "success",
+    "execution_mode": "official",
+    "protocol": "motus_official_full_chunk",
+    "execute_steps": 16,
+    "replans": 4,
+    "executed_actions": 48,
+    "limited_actions": 31,
+    "limited_fraction": 0.6458333333333334,
+    "max_raw_arm_delta": 0.3231164216995239,
+    "max_raw_gripper_delta": 0.29225075244903564,
+    "right_gripper_target_range": [
+      -0.7850000262260437,
+      -0.04248046875
+    ],
+    "final_right_gripper_state": -0.5574872493743896,
+    "grasp_guard": null,
+    "final_block_position": [
+      0.629874724401479,
+      0.520999991419945,
+      -0.6418664902224268
+    ],
+    "inside_box": true,
+    "seconds": 59.687572602997534
+  }
+]
